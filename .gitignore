@@ -25,3 +25,11 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#Chef
+tmp/*
+.chef
+.rake_test_cache
+*.swp
+*.swo
+*~

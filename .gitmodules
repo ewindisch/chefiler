@@ -1,0 +1,15 @@
+[submodule "cookbooks/lvm"]
+	path = cookbooks/lvm
+	url = https://github.com/opscode-cookbooks/lvm.git
+[submodule "cookbooks/drbd"]
+	path = cookbooks/drbd
+	url = https://github.com/opscode-cookbooks/drbd.git
+[submodule "cookbooks/samba"]
+	path = cookbooks/samba
+	url = https://github.com/opscode-cookbooks/samba
+[submodule "cookbooks/xfs"]
+	path = cookbooks/xfs
+	url = https://github.com/opscode-cookbooks/xfs
+[submodule "cookbooks/logrotate"]
+	path = cookbooks/logrotate
+	url = https://github.com/opscode-cookbooks/logrotate
