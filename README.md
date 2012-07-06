@@ -1,4 +1,3 @@
-chefiler
+chefiler - chef-based storage management
 ========
-
-Chef-based storage management
+License: APL v2.0
