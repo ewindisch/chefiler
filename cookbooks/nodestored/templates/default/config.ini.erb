@@ -5,8 +5,8 @@ driver=<%= node.nodestored.root.driver %>
 driver=<%= node.nodestored.swap.driver %>
 
 <% [node.nodestored.root.driver,
-    node.nodestored.swap.driver].uniq.each do {|driver| %>
+    node.nodestored.swap.driver].uniq.each do |driver| %>
 [<%= driver %>]
 method=<%= node['nodestored']['drivers'][driver]['method'] %>
 location=<%= node['nodestored']['drivers'][driver]['location'] %>
-<% } %>
+<% end %>

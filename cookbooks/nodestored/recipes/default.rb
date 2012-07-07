@@ -1,3 +1,6 @@
+directory "/opt"
+directory "/opt/chefiler"
+
 git "/opt/chefiler/nodestored" do
   repository "https://github.com/ewindisch/nodestored.git"
   reference "master"
