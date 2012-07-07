@@ -1,5 +1,6 @@
 directory "/opt"
 directory "/opt/chefiler"
+directory "/etc/cloudinf"
 
 git "/opt/chefiler/nodestored" do
   repository "https://github.com/ewindisch/nodestored.git"
