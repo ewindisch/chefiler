@@ -13,3 +13,13 @@
 [submodule "cookbooks/logrotate"]
 	path = cookbooks/logrotate
 	url = https://github.com/opscode-cookbooks/logrotate
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = https://github.com/opscode-cookbooks/git
+[submodule "cookbooks/runit"]
+	path = cookbooks/git
+	url = https://github.com/opscode-cookbooks/runit
+[submodule "cookbooks/yum"]
+	path = cookbooks/git
+	url = https://github.com/opscode-cookbooks/yum
+
