@@ -4,7 +4,7 @@ directory "/opt/chefiler"
 git "/opt/chefiler/nodestored" do
   repository "https://github.com/ewindisch/nodestored.git"
   reference "master"
-  action "sync"
+  action :sync
 end
 
 template "/etc/cloudinf/config.ini" do
