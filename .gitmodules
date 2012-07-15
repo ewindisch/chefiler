@@ -32,3 +32,6 @@
 [submodule "cookbooks/users"]
 	path = cookbooks/users
 	url = https://github.com/opscode-cookbooks/users
+[submodule "cookbooks/avahi"]
+	path = cookbooks/avahi
+	url = https://github.com/jackl0phty/opschef-cookbook-avahi-daemon.git
