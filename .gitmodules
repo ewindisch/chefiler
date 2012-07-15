@@ -23,3 +23,6 @@
 	path = cookbooks/git
 	url = https://github.com/opscode-cookbooks/yum
 
+[submodule "cookbooks/nfs"]
+	path = cookbooks/nfs
+	url = https://github.com/atomic-penguin/cookbook-nfs.git
