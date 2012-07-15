@@ -4,10 +4,10 @@
   "interfaces": "0.0.0.0/0",
   "hosts_allow": "0.0.0.0/0",
   "server_string": "Chefiler",
-  "shares": {
+  "mnt": {
     "export": {
-      "comment": "Exported Share",
-      "path": "/srv/export",
+      "comment": "Mounted filesystems",
+      "path": "/mnt",
       "guest ok": "no",
       "printable": "no",
       "write list": ["ewindisch"],
