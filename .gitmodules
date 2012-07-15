@@ -26,3 +26,9 @@
 [submodule "cookbooks/nfs"]
 	path = cookbooks/nfs
 	url = https://github.com/atomic-penguin/cookbook-nfs.git
+[submodule "https:/github.com/opscode-cookbooks/users"]
+	path = https:/github.com/opscode-cookbooks/users
+	url = ./cookbooks
+[submodule "cookbooks/users"]
+	path = cookbooks/users
+	url = https://github.com/opscode-cookbooks/users
