@@ -6,7 +6,7 @@
       "path": "/mnt",
       "guest ok": "no",
       "printable": "no",
-      "write list": ["ewindisch"],
+      "write list": ["johndoe"],
       "create mask": "0664",
       "directory mask": "0775"
     }
