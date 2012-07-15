@@ -1,11 +1,7 @@
 {
   "id": "shares",
-  "workgroup": "bwbohhnet",
-  "interfaces": "0.0.0.0/0",
-  "hosts_allow": "0.0.0.0/0",
-  "server_string": "Chefiler",
-  "mnt": {
-    "export": {
+  "shares": {
+    "mnt": {
       "comment": "Mounted filesystems",
       "path": "/mnt",
       "guest ok": "no",
