@@ -4,7 +4,7 @@ default_attributes({
     "samba" => {
       "hosts_allow" => "0.0.0.0/0",
       "server_string" => "Chefiler",
-      "workgroup" => "bwbohhnet",
+      "workgroup" => "CHEFILER",
       "interfaces" => "0.0.0.0/0"
     }
   }
