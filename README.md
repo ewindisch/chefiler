@@ -49,3 +49,12 @@ Several items of note are important for users of the RaspberryPi:
 * OpenSSH server must be running. Dropbear will NOT work.
 * Chef must bootstrap with debian6-gems.erb, download at:
   https://github.com/webtatic/configuration/blob/master/chef/bootstrap/debian6-gems.erb
+* Ethernet performance will be limited. By default, you'll only expect
+  up to 2MB/s throughput. This can be increased to 4.4MB/s by adjusting
+  your MTU to 1492.
+
+  Edit /etc/network/interfaces to include 'mtu 1492' after 'iface eth0':
+
+   iface eth0 inet dhcp
+       mtu 1492
+
